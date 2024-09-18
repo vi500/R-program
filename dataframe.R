@@ -1,0 +1,8 @@
+uid=c(1,2,3,NA)
+uname=c("mysore","mandy","acharya","RV")
+strength=c(23,34,55,56)
+result=c("65%","76%","55%","60%")
+location=c("Mysore","Mandy","Benaglore","Benglore south")
+uni_data=data.frame(uid,uname,strength,result,location)
+print(uni_data)
+typeof(uni_data)
